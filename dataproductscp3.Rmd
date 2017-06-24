@@ -2,7 +2,9 @@
 title: "2D Plot of MTCARS"
 author: "Jeff Johnson"
 date: "June 23, 2017"
-output: html_document
+output:
+  html_document: default
+  ioslides_presentation: default
 ---
 
 ```{r setup, include=FALSE}
