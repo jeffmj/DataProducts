@@ -1,5 +1,5 @@
 ---
-title: "3D Plot of MTCARS"
+title: "2D Plot of MTCARS"
 author: "Jeff Johnson"
 date: "June 23, 2017"
 output: html_document
