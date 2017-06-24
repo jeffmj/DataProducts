@@ -3,8 +3,8 @@ title: "2D Plot of MTCARS"
 author: "Jeff Johnson"
 date: "June 23, 2017"
 output:
-  html_document: default
   ioslides_presentation: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -16,12 +16,13 @@ library(plotly)
 Interactive plot of mpg vs. wt. colored by displacement  with the markers sized by cylinder size.
 
 
-```{r cars}
+```{r cars, echo = FALSE}
 plot_ly(x = ~mtcars$wt*1000, 
         y = ~mtcars$mpg,
         mode = "markers", 
         color = ~mtcars$disp,
-        size = ~mtcars$cyl) 
+        size = ~mtcars$cyl,
+        type = "scatter") 
 
  
 
